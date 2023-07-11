@@ -1,0 +1,52 @@
+body {
+    background-color: #75abf1;
+    font: normal 15pt Arial;
+    color: #faf9f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+
+}
+
+section {
+    background: white;
+    margin: auto;
+    width: 50%;
+    border-radius: 8px;
+    color: black;
+    padding: 10px;
+}
+
+footer {
+    font: normal 15pt arial;
+    text-align: center;
+    margin: auto;
+    font-style: italic;
+}   
+
+#caixas{
+    height: fit-content;
+    padding: 10px;
+}
+#ano {
+    width: 250px;
+
+}
+img {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+}
+
+#res{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}

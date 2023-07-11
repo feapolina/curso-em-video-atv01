@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Verificador de Idade</title>
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+
+    <section>
+        <div id="caixas">
+            <p>
+                Ano de nascimento: 
+                <input type="number" name="ano" id="ano" max="2023" min="1900">
+            </p>
+
+            <p>
+                Sexo:
+                <input type="radio" name="radsex" id="masc" checked> <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <input type="button" value="VERIFICAR" onclick="verificar()">
+            
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver o resultado.
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; LipeEstudos</p>
+        <p>imagens não foram tratadas, então podem ter qualidade ruim/baixa</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
